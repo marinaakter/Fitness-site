@@ -15,6 +15,8 @@ body{
 .container{
     max-width: 1024px;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .btn{
@@ -60,6 +62,10 @@ nav ul{
 nav ul li{
     padding: 4px 10px;
     font-size: 18px;
+}
+
+nav .menu-icon{
+    display: none;
 }
 
 .active{
@@ -146,4 +152,38 @@ nav ul li{
     height: 50px;
     background: #E6533C;
     border-radius: 30px;
+}
+
+
+
+@media screen and (max-width: 425px){
+ nav .menu-icon{
+    display: inline;
+ }
+
+ nav ul{
+    display: none;
+ }
+
+ .banner{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.banner-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.banner-content p{
+    font-size: 10px;
+    color: #5c5c5c;
+}
+
 }
