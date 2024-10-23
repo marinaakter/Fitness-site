@@ -1,224 +1,231 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: black;
-    color: white;
-    font-family: "Inter", sans-serif;
-    
+body {
+  background-color: black;
+  color: white;
+  font-family: "Inter", sans-serif;
 }
 
 /* Shared Section Design part */
-.container{
-    max-width: 1024px;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.btn{
-    padding: 8px 25px;
-    border-radius: 50px;
-    border: none;
-    color: white;
+.btn {
+  padding: 8px 25px;
+  border-radius: 50px;
+  border: none;
+  color: white;
 }
-.btn.primary{
-    background: #E6533C;
+.btn.primary {
+  background: #e6533c;
 }
 
-.btn.secondary{
-    background-color: transparent;
-    border: 1px solid white;
-
+.btn.secondary {
+  background-color: transparent;
+  border: 1px solid white;
 }
 
 /* Navbar Section design part */
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
-nav .logo{
-    font-size: 30px;
-    font-weight: 900;
-    color: #E6533C;
-
+nav .logo {
+  font-size: 30px;
+  font-weight: 900;
+  color: #e6533c;
 }
-nav ul{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
-    border: 1px solid #282828;
-    padding: 2px;
-    border-radius: 50px;
-}
-
-nav ul li{
-    padding: 4px 10px;
-    font-size: 18px;
+  border: 1px solid #282828;
+  padding: 2px;
+  border-radius: 50px;
 }
 
-nav .menu-icon{
-    display: none;
+nav ul li {
+  padding: 4px 10px;
+  font-size: 18px;
 }
 
-.active{
-    background: #E6533C;
-    border-radius: 50px;
+nav .menu-icon {
+  display: none;
+}
+
+.active {
+  background: #e6533c;
+  border-radius: 50px;
 }
 /* Banner Section design part */
 
-.banner{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
 }
 
-.banner-content{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-    
+.banner-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.banner-content h1{
-    font-size: 70px;
-    font-weight: 900;
+.banner-content h1 {
+  font-size: 70px;
+  font-weight: 900;
 }
 
-.banner-content p{
-    font-size: 15px;
-    color: #5c5c5c;
+.banner-content p {
+  font-size: 15px;
+  color: #5c5c5c;
 }
 
-.button-container{
-    display: flex;
-    gap: 15px;
+.button-container {
+  display: flex;
+  gap: 15px;
 }
 
-.banner-image-container{
-    display: flex;
-    justify-content: end;
+.banner-image-container {
+  display: flex;
+  justify-content: end;
 }
 
-.banner-image{
-    width: max-content;
-    position: relative;
+.banner-image {
+  width: max-content;
+  position: relative;
 }
 
-.banner-image img{
-    height: 500px;
+.banner-image img {
+  height: 500px;
 }
 
-.floating-card{
-    position: absolute;
-    background:#4c4c4c94;
-    backdrop-filter: blur(5px);
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    padding: 10px 20px;
-    border-radius: 5px;
+.floating-card {
+  position: absolute;
+  background: #4c4c4c94;
+  backdrop-filter: blur(5px);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
-.floating-card h5{
-    font-size: 25px;
-    font-weight: 900;
+.floating-card h5 {
+  font-size: 25px;
+  font-weight: 900;
 }
 
-.floating-card p{
-    font-size: 12px;
-    color: #898686;
+.floating-card p {
+  font-size: 12px;
+  color: #898686;
 }
 
-.floating-card.top{
-    top: 25%;
-    right: -10%;
+.floating-card.top {
+  top: 25%;
+  right: -10%;
 }
 
-.floating-card.bottom{
-    bottom: 20%;
-    left: -15%;
+.floating-card.bottom {
+  bottom: 20%;
+  left: -15%;
 }
 
-.floating-card .circle{
-    width: 50px;
-    height: 50px;
-    background: #E6533C;
-    border-radius: 30px;
+.floating-card .circle {
+  width: 50px;
+  height: 50px;
+  background: #e6533c;
+  border-radius: 30px;
 }
 
 /* Change your habit section design part */
-.habit-text-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center ;
-    margin-bottom: 20px;
+.habit-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.habit-image-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.habit-image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
-.habit-image-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 10px;
-    gap: 8px;
+.habit-image-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  gap: 8px;
 }
 
-.habit-image-card p{
-    color: gray;
+.habit-image-card p {
+  color: gray;
 }
 
-.habit-image img{
-    border: 0.5px dotted white;
-    border-radius: 50%;
+.habit-image img {
+  border: 0.5px dotted white;
+  border-radius: 50%;
 }
 
-
-@media screen and (max-width: 425px){
- nav .menu-icon{
+@media screen and (max-width: 425px) {
+  nav .menu-icon {
     display: inline;
- }
+  }
 
- nav ul{
+  nav ul {
     display: none;
- }
+  }
 
- .banner{
+  .banner {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-}
+  }
 
-.banner-image-container{
+  .banner-image-container {
     display: flex;
     justify-content: center;
-}
+  }
 
-.banner-content h1{
+  .banner-content h1 {
     font-size: 30px;
     font-weight: 900;
-}
+  }
 
-.banner-content p{
+  .banner-content p {
     font-size: 10px;
     color: #5c5c5c;
+  }
+
+  .habit-image-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .habit-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
