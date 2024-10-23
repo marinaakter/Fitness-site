@@ -21,7 +21,7 @@ body {
 }
 
 .btn {
-  padding: 8px 25px;
+  padding: 15px 30px;
   border-radius: 50px;
   border: none;
   color: white;
@@ -187,6 +187,41 @@ nav .menu-icon {
   border-radius: 50%;
 }
 
+/* Run Section */
+.run-container {
+  background: #343434;
+  border-radius: 15px;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.run-content {
+  display: flex;
+
+}
+.run-text-content h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.run-text-content p {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.run-image{
+  display: flex;
+  justify-content: end;
+}
+.run-image img {
+  width: 50%;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 425px) {
   nav .menu-icon {
     display: inline;
@@ -221,11 +256,39 @@ nav .menu-icon {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .run-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .run-text-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .run-text-content h1{
+    font-size: 30px;
+  }
+
+  .run-image{
+    display: flex;
+  justify-content: center;
+  }
+  .run-image img{
+    width: 100%;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .habit-image-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .run-container{
+    margin-left: 20px;
+  }
+  .run-image img{
+    width: 50%;
   }
 }
