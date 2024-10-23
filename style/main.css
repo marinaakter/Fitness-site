@@ -12,6 +12,8 @@ body{
     font-family: "Inter", sans-serif;
     
 }
+
+/* Shared Section Design part */
 .container{
     max-width: 1024px;
     margin: 0 auto;
@@ -35,6 +37,7 @@ body{
 
 }
 
+/* Navbar Section design part */
 
 nav{
     display: flex;
@@ -72,6 +75,7 @@ nav .menu-icon{
     background: #E6533C;
     border-radius: 50px;
 }
+/* Banner Section design part */
 
 .banner{
     display: grid;
@@ -154,6 +158,37 @@ nav .menu-icon{
     border-radius: 30px;
 }
 
+/* Change your habit section design part */
+.habit-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center ;
+    margin-bottom: 20px;
+}
+
+.habit-image-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.habit-image-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    gap: 8px;
+}
+
+.habit-image-card p{
+    color: gray;
+}
+
+.habit-image img{
+    border: 0.5px dotted white;
+    border-radius: 50%;
+}
 
 
 @media screen and (max-width: 425px){
