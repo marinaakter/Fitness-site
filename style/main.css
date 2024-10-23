@@ -195,6 +195,7 @@ nav .menu-icon {
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .run-content {
