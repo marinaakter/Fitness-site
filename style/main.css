@@ -515,8 +515,6 @@ footer .footer-container-2{
 
 
 
-
-
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .habit-image-container {
     display: grid;
@@ -546,6 +544,11 @@ footer .footer-container-2{
 }
 
 @media screen and (max-width: 425px) {
+  .BMI-container{
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
   .BMI-container{
     grid-template-columns: 1fr;
   }
