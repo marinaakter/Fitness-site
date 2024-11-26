@@ -454,7 +454,7 @@ input, select{
   }
 }
 
-@media screen and (max-width: 4425px) {
+@media screen and (max-width: 425px) {
   .BMI-container{
     grid-template-columns: 1fr;
   }
