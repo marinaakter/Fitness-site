@@ -453,3 +453,9 @@ input, select{
     display: none;
   }
 }
+
+@media screen and (max-width: 4425px) {
+  .BMI-container{
+    grid-template-columns: 1fr;
+  }
+}
