@@ -375,3 +375,18 @@ nav .menu-icon {
     width: 50%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .top-row{
+    grid-template-columns: 1fr 1fr;
+  }
+  .top-row .hidden-card-1{
+    display: none;
+  }
+  .bottom-row{
+    grid-template-columns: 0.8fr 1fr;
+  }
+  .bottom-row .hidden-card-2{
+    display: none;
+  }
+}
