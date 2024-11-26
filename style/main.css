@@ -451,10 +451,6 @@ footer .footer-container-2{
 
 
 
-
-
-
-
 @media screen and (max-width: 425px) {
   nav .menu-icon {
     display: inline;
@@ -566,5 +562,20 @@ footer .footer-container-2{
   }
   .meet-overlap{
     bottom: -4rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  footer .footer-container-2{
+    grid-template-columns: 1fr;
+  }
+  .footer-link{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+  footer .footer-container-2{
+    grid-template-columns: 1fr;
   }
 }
