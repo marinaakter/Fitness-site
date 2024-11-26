@@ -253,7 +253,7 @@ nav .menu-icon {
 }
 .card img{
   width: 100%;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
 }
 .overlap{
@@ -286,7 +286,7 @@ nav .menu-icon {
 }
 .overlap-4{
   background: #0d120e91;
-  justify-content: end;
+  align-items: end;
 
 }
 .overlap-5{
