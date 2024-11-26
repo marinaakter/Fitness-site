@@ -230,23 +230,74 @@ nav .menu-icon {
 }
 
 /* Traning and Excercise Section */
-
+.training h1{
+  font-size: 50px;
+}
 .subtitle{
   color: #494949;
-  font-size: 15px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .top-row{
   display: grid;
-  grid-template-columns: 1fr 2fr 1.2fr;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 .bottom-row{
   display: grid;
-  grid-template-columns: 2fr 1fr 1.5fr;
+  grid-template-columns: 1.5fr 1fr 1.3fr;
+}
+.card{
+  position: relative;
 }
 .card img{
   width: 100%;
   height: 200px;
+  object-fit: cover;
+}
+.overlap{
+  position: absolute;
+  top:0;
+  left: 0;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.overlap-1{
+  background: #06ffd171;
+  justify-content: end;
+  color: black;
+}
+.overlap-2{
+  background: #ff060e5f;
+  justify-content: start;
+}
+.overlap-3{
+  background: #626d6b71;
+  justify-content: end;
+
+}
+.overlap-4{
+  background: #0d120e91;
+  justify-content: end;
+
+}
+.overlap-5{
+  background: #06ff4054;
+  justify-content: end;
+
+}
+.overlap-6{
+  background: #065dff61;
+  justify-content: end;
+
 }
 
 
