@@ -406,6 +406,55 @@ input, select{
   border-radius: 15px;
 }
 
+/* Footer Section */
+.footer-container{
+  background: #202020;
+  margin-top: 5rem;
+}
+
+footer .footer-container-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #494949;
+}
+.footer-content h1{
+  color: #e6533c;
+  font-size: 3rem;
+  font-style: italic;
+}
+.footer-link{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.footer-link ul{
+  list-style-type: none;
+  color: #7b7a7a;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.copyright{
+  padding-top: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #787777;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 425px) {
   nav .menu-icon {
     display: inline;
